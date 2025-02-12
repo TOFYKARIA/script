@@ -1,0 +1,65 @@
+2025-02-12 14:29:12,505 - INFO - Starting bot...
+2025-02-12 14:29:12,507 - INFO - Start polling
+2025-02-12 14:29:12,890 - INFO - Run polling for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 14:29:13,235 - INFO - Update id=991637820 is not handled. Duration 4 ms by bot id=7948912217
+2025-02-12 14:30:21,389 - WARNING - Received SIGTERM signal
+2025-02-12 14:30:21,390 - INFO - Polling stopped for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 14:30:21,390 - INFO - Polling stopped
+2025-02-12 14:30:25,903 - INFO - Starting bot...
+2025-02-12 14:30:25,904 - INFO - Start polling
+2025-02-12 14:30:26,292 - INFO - Run polling for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 14:40:27,647 - WARNING - Received SIGTERM signal
+2025-02-12 14:40:27,648 - INFO - Polling stopped for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 14:40:27,648 - INFO - Polling stopped
+2025-02-12 14:40:32,598 - INFO - Starting bot...
+2025-02-12 14:40:32,598 - INFO - Start polling
+2025-02-12 14:40:32,990 - INFO - Run polling for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 14:41:40,360 - WARNING - Received SIGTERM signal
+2025-02-12 14:41:40,360 - INFO - Polling stopped for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 14:41:40,360 - INFO - Polling stopped
+2025-02-12 14:41:44,079 - INFO - Starting bot...
+2025-02-12 14:41:44,080 - INFO - Start polling
+2025-02-12 14:41:44,460 - INFO - Run polling for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 14:56:41,465 - INFO - Update id=991637822 is handled. Duration 421 ms by bot id=7948912217
+2025-02-12 14:56:44,662 - INFO - Update id=991637823 is handled. Duration 1171 ms by bot id=7948912217
+2025-02-12 14:56:45,967 - INFO - Update id=991637824 is handled. Duration 280 ms by bot id=7948912217
+2025-02-12 14:56:50,542 - WARNING - Unexpected API response format: None
+2025-02-12 14:56:50,671 - INFO - Update id=991637825 is handled. Duration 273 ms by bot id=7948912217
+2025-02-12 14:56:51,124 - WARNING - Unexpected API response format: None
+2025-02-12 14:56:51,269 - INFO - Update id=991637826 is handled. Duration 300 ms by bot id=7948912217
+2025-02-12 14:56:55,100 - WARNING - Unexpected API response format: None
+2025-02-12 14:56:55,264 - INFO - Update id=991637827 is handled. Duration 304 ms by bot id=7948912217
+2025-02-12 14:56:56,112 - WARNING - Unexpected API response format: None
+2025-02-12 14:56:56,277 - INFO - Update id=991637828 is handled. Duration 308 ms by bot id=7948912217
+2025-02-12 14:56:56,900 - WARNING - Unexpected API response format: None
+2025-02-12 14:56:57,092 - INFO - Update id=991637829 is handled. Duration 332 ms by bot id=7948912217
+2025-02-12 14:56:59,222 - WARNING - Unexpected API response format: None
+2025-02-12 14:56:59,409 - INFO - Update id=991637830 is handled. Duration 326 ms by bot id=7948912217
+2025-02-12 14:57:00,341 - WARNING - Unexpected API response format: None
+2025-02-12 14:57:00,571 - INFO - Update id=991637831 is handled. Duration 370 ms by bot id=7948912217
+2025-02-12 14:57:01,294 - WARNING - Unexpected API response format: None
+2025-02-12 14:57:01,688 - INFO - Update id=991637832 is handled. Duration 538 ms by bot id=7948912217
+2025-02-12 14:57:27,916 - WARNING - Received SIGTERM signal
+2025-02-12 14:57:27,917 - INFO - Polling stopped for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 14:57:27,917 - INFO - Polling stopped
+2025-02-12 15:03:18,260 - INFO - Starting bot...
+2025-02-12 15:03:18,262 - INFO - Start polling
+2025-02-12 15:03:18,655 - INFO - Run polling for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 15:03:51,462 - INFO - Update id=991637844 is handled. Duration 1540 ms by bot id=7948912217
+2025-02-12 17:13:51,446 - INFO - Starting bot...
+2025-02-12 17:13:51,471 - INFO - Start polling
+2025-02-12 17:13:51,893 - INFO - Run polling for bot @rule34sakura_bot id=7948912217 - 'sakura bot'
+2025-02-12 17:15:06,022 - INFO - Update id=991637846 is handled. Duration 1494 ms by bot id=7948912217
+2025-02-12 17:15:29,941 - INFO - Update id=991637847 is handled. Duration 126 ms by bot id=7948912217
+2025-02-12 17:15:54,896 - INFO - Update id=991637848 is handled. Duration 1459 ms by bot id=7948912217
+2025-02-12 17:16:00,870 - INFO - Update id=991637849 is handled. Duration 783 ms by bot id=7948912217
+2025-02-12 17:16:05,788 - INFO - Update id=991637850 is handled. Duration 381 ms by bot id=7948912217
+2025-02-12 17:16:06,528 - INFO - Update id=991637851 is handled. Duration 372 ms by bot id=7948912217
+2025-02-12 17:16:07,335 - INFO - Update id=991637852 is handled. Duration 658 ms by bot id=7948912217
+2025-02-12 17:16:07,981 - INFO - Update id=991637853 is handled. Duration 541 ms by bot id=7948912217
+2025-02-12 17:16:08,361 - WARNING - Unexpected API response format: None
+2025-02-12 17:16:08,527 - INFO - Update id=991637854 is handled. Duration 309 ms by bot id=7948912217
+2025-02-12 17:16:17,537 - INFO - Update id=991637855 is handled. Duration 737 ms by bot id=7948912217
+2025-02-12 17:16:23,284 - INFO - Update id=991637856 is handled. Duration 784 ms by bot id=7948912217
+2025-02-12 17:16:25,786 - INFO - Update id=991637857 is handled. Duration 302 ms by bot id=7948912217
+2025-02-12 17:16:26,822 - INFO - Update id=991637858 is handled. Duration 866 ms by bot id=7948912217
