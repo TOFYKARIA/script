@@ -1,0 +1,19 @@
+# Шаг 1: bot.py
+```python
+```
+[Содержимое из opt/rule34bot/bot.py]
+
+# Шаг 2: config.py
+```python
+```
+[Содержимое из opt/rule34bot/config.py]
+
+# Шаг 3: api_client.py
+```python
+```
+[Содержимое из opt/rule34bot/api_client.py]
+
+# Шаг 4: install.sh
+```bash
+```
+[Содержимое из opt/rule34bot/install.sh]

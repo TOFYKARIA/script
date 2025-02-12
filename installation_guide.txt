@@ -1,0 +1,62 @@
+# Инструкция по установке бота на VDS сервер
+
+## Подключение к серверу
+1. Откройте PuTTY
+2. Введите IP: 45.144.65.99
+3. Порт: 22 (стандартный)
+4. Логин: root
+5. Пароль: CMIo63e5o6p2
+
+## Шаги установки
+
+1. Создание директории:
+```bash
+mkdir -p /opt/rule34bot
+cd /opt/rule34bot
+```
+
+2. Создание файлов (используйте nano для каждого файла):
+
+bot.py:
+```python
+[Содержимое из opt/rule34bot/bot.py]
+```
+
+config.py:
+```python
+[Содержимое из opt/rule34bot/config.py]
+```
+
+api_client.py:
+```python
+[Содержимое из opt/rule34bot/api_client.py]
+```
+
+install.sh:
+```bash
+[Содержимое из opt/rule34bot/install.sh]
+```
+
+3. Установка бота:
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+4. Проверка работы:
+```bash
+systemctl status rule34bot
+```
+
+## Управление ботом
+
+- Проверка статуса: `systemctl status rule34bot`
+- Перезапуск: `systemctl restart rule34bot`
+- Остановка: `systemctl stop rule34bot`
+- Просмотр логов: `journalctl -u rule34bot -f`
+
+## Важно!
+После успешной установки рекомендуется изменить пароль root для безопасности:
+```bash
+passwd root
+```

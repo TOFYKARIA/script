@@ -1,0 +1,75 @@
+Инструкция по установке Rule34 Telegram бота на сервер
+
+1. Подключитесь к серверу через SSH:
+   ```
+   ssh root@45.144.65.99
+   ```
+
+2. Создайте директорию для бота:
+   ```
+   mkdir -p /opt/rule34bot
+   cd /opt/rule34bot
+   ```
+
+3. Скопируйте следующие файлы в эту директорию (используйте WinSCP или FileZilla):
+   - bot.py
+   - config.py
+   - api_client.py
+   - .env
+
+4. После копирования файлов, установите права:
+   ```
+   chmod 644 bot.py config.py api_client.py
+   chmod 600 .env
+   ```
+
+5. Установите зависимости:
+   ```
+   apt update
+   apt install -y python3 python3-pip
+   pip3 install aiogram aiohttp python-dotenv
+   ```
+
+6. Создайте файл .env и добавьте токен бота:
+   ```
+   echo "BOT_TOKEN=ваш_токен_бота" > .env
+   ```
+
+7. Создайте и запустите системный сервис:
+   ```
+   cat > /etc/systemd/system/rule34bot.service << 'EOF'
+[Unit]
+Description=Rule34 Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/rule34bot
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOF
+   ```
+
+8. Активируйте и запустите сервис:
+   ```
+   systemctl daemon-reload
+   systemctl enable rule34bot
+   systemctl start rule34bot
+   ```
+
+9. Проверьте статус:
+   ```
+   systemctl status rule34bot
+   ```
+
+10. Просмотр логов:
+    ```
+    journalctl -u rule34bot -f
+    ```
+
+Важно: Храните токен бота в безопасности и никому его не передавайте.

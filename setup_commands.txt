@@ -1,0 +1,36 @@
+# Команды для установки бота на VDS сервер
+
+## 1. Создание файлов
+
+### bot.py
+cat > /opt/rule34bot/bot.py << 'EOL'
+```python
+[Содержимое из opt/rule34bot/bot.py]
+```
+EOL
+
+### config.py
+cat > /opt/rule34bot/config.py << 'EOL'
+```python
+[Содержимое из opt/rule34bot/config.py]
+```
+EOL
+
+### api_client.py
+cat > /opt/rule34bot/api_client.py << 'EOL'
+```python
+[Содержимое из opt/rule34bot/api_client.py]
+```
+EOL
+
+### install.sh
+cat > /opt/rule34bot/install.sh << 'EOL'
+```bash
+[Содержимое из opt/rule34bot/install.sh]
+```
+EOL
+
+## 2. Установка прав и запуск
+chmod +x /opt/rule34bot/install.sh
+cd /opt/rule34bot
+./install.sh
